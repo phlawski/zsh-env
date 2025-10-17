@@ -1,4 +1,9 @@
 # ============================
+# Uncomment this if you want to profile the zsh startup
+# ============================
+# zmodload zsh/zprof
+
+# ============================
 # Antidote (plugin manager)
 # ============================
 source $HOME/.antidote/antidote.zsh
@@ -45,3 +50,7 @@ fi
 # ============================
 alias top="btop"
 
+# ============================
+# Uncomment this if you want to profile the zsh startup
+# ============================
+# zprof
