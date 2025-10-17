@@ -20,4 +20,5 @@ sudo apt install btop
 
 ## Kubernetes
 
-Uncomment K8S stuff if you need it.
+This setup enables some K8S goodies if the `kubectl` is installed (requires **snap** install).
+Additional stuff required is `kubecolor` (see: https://github.com/kubecolor/kubecolor)
