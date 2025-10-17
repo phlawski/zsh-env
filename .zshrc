@@ -1,23 +1,20 @@
 source $HOME/.antidote/antidote.zsh
 
-# history
+## history
 export HISTFILE="$HOME/.zsh_history"
 export SAVEHIST=10000
 setopt inc_append_history
 setopt share_history
 
-# antidote
+## antidote
 antidote load
 
-# options
+## options
 fpath=($ZSH/completion $fpath)
 bindkey "${key[Up]}" history-substring-search-up
 bindkey "${key[Down]}" history-substring-search-down
 
-# exports
-export SAVEHIST=999999999
-
-# K8S 
+## K8S 
 #compdef kubecolor=kubectl
 #source $HOME/.kube-ps1/kube-ps1.sh
 #export KUBE_PS1_SEPARATOR=''
@@ -31,5 +28,5 @@ export SAVEHIST=999999999
 #	echo $(kubectl get sa -o=jsonpath='{.items[0]..metadata.namespace}')
 #}
 
-# aliases
+## aliases
 alias top="btop"

@@ -12,6 +12,12 @@ Copy `.zshrc` and `.zsh_plugins.txt` to your `$HOME` directory.
 
 See: https://github.com/aos/dsf-debian, https://github.com/so-fancy/diff-so-fancy
 
+## btop
+
+```zsh
+sudo apt install btop
+```
+
 ## Kubernetes
 
 Uncomment K8S stuff if you need it.
