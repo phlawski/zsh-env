@@ -41,7 +41,7 @@ if command -v kubectl &>/dev/null; then
 
   # function to get current namespace
   current_ns () {
-    echo $(kubectl get sa -o=jsonpath='{.items[0]..metadata.namespace}')
+    kubectl config view --minify -o jsonpath='{..namespace}'
   }
 fi
 
