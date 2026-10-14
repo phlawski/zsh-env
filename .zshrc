@@ -49,6 +49,7 @@ fi
 # Aliases
 # ============================
 alias top="btop"
+alias cat="batcat"
 
 # ============================
 # Uncomment this if you want to profile the zsh startup
